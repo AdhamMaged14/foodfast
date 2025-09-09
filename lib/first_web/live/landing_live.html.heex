@@ -1,0 +1,28 @@
+<div class="relative min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-navy-400 to-blue-500 text-white px-4">
+   <img src="/images/food-delivery.png" alt="Food Illustration"
+     class="hidden sm:block w-56 opacity-20 absolute bottom-10 right-10" />
+     <img src="/images/smartphone.png" alt="Food Illustration"
+     class="hidden sm:block w-56 opacity-20 absolute top-10 left-10" />
+  <div class="flex items-center justify-center gap-2 mb-6">
+    <h1 class="text-4xl font-extrabold sm:text-5xl">FoodFast</h1>
+     <img src="/images/delivery-man.png" alt="FoodFast Logo" class="w-10 h-10 sm:w-12 sm:h-12" />
+  </div>
+  <p class="mb-8 text-lg sm:text-xl text-center max-w-sm">
+    Delicious meals in <span class="font-semibold">30 minutes or less</span>
+  </p>
+<div class="flex flex-col gap-4 w-full max-w-xs">
+    <.link
+      navigate={~p"/login"}
+      class="w-full px-6 py-3 bg-white text-blue-600 font-semibold rounded-xl shadow-md text-center hover:bg-gray-100"
+    >
+      Login
+    </.link>
+
+    <.link
+      navigate={~p"/signup"}
+      class="w-full px-6 py-3 bg-blue-700 font-semibold rounded-xl shadow-md text-center hover:bg-blue-800"
+    >
+      Sign Up
+    </.link>
+  </div>
+</div>
