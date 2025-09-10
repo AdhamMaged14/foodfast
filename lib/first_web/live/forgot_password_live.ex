@@ -2,7 +2,10 @@ defmodule FirstWeb.ForgotPasswordLive do
   use FirstWeb, :live_view
 
   def mount(_params, _session, socket), do: {:ok, socket}
-
+   def handle_event("reset_password",%{"email" => email}, socket) do
+     IO.puts("Reset password for: #{email}")
+  {:noreply, push_navigate(socket, to: ~p"/verification")}
+end
   def render(assigns) do
     ~H"""
     <div class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-navy-400 to-blue-500">

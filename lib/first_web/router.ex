@@ -20,6 +20,8 @@ defmodule FirstWeb.Router do
     live "/login", LoginLive, :index
   live "/signup", SignupLive, :index
   live "/forgot-password", ForgotPasswordLive, :index
+  live "/verification", VerificationLive, :index
+
 
   end
 
