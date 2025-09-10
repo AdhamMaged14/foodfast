@@ -1,0 +1,73 @@
+## This file is a PO Template file.
+##
+## "msgid"s here are often extracted from source code.
+## Add new messages manually only if they're dynamic
+## messages that can't be statically extracted.
+##
+## Run "mix gettext.extract" to bring this file up to
+## date. Leave "msgstr"s empty as changing them here has no
+## effect: edit them in PO (.po) files instead.
+#
+msgid ""
+msgstr ""
+
+#: lib/first_web/components/core_components.ex:342
+#, elixir-autogen, elixir-format
+msgid "Actions"
+msgstr ""
+
+#: lib/first_web/components/layouts.ex:99
+#: lib/first_web/components/layouts.ex:111
+#, elixir-autogen, elixir-format
+msgid "Attempting to reconnect"
+msgstr ""
+
+#: lib/first_web/live/forgot_password_live.ex:18
+#, elixir-autogen, elixir-format
+msgid "Forgot Password"
+msgstr ""
+
+#: lib/first_web/components/layouts.ex:106
+#, elixir-autogen, elixir-format
+msgid "Something went wrong!"
+msgstr ""
+
+#: lib/first_web/components/layouts.ex:94
+#, elixir-autogen, elixir-format
+msgid "We can't find the internet"
+msgstr ""
+
+#: lib/first_web/components/core_components.ex:74
+#, elixir-autogen, elixir-format
+msgid "close"
+msgstr ""
+
+#: lib/first_web/live/forgot_password_live.ex:37
+#, elixir-autogen, elixir-format
+msgid "Back to Login"
+msgstr ""
+
+#: lib/first_web/live/forgot_password_live.ex:23
+#, elixir-autogen, elixir-format
+msgid "Email"
+msgstr ""
+
+#: lib/first_web/live/forgot_password_live.ex:33
+#, elixir-autogen, elixir-format
+msgid "Send Code"
+msgstr ""
+
+#: lib/first_web/live/landing_live.ex:34
+#, elixir-autogen, elixir-format
+msgid "Login"
+msgstr ""
+
+#: lib/first_web/live/landing_live.ex:38
+#, elixir-autogen, elixir-format
+msgid "Sign Up"
+msgstr ""
+
+#: lib/first_web/live/landing_live.ex:29
+#, elixir-autogen, elixir-format
+msgid "Delicious meals in 30 minutes or less"
+msgstr ""
